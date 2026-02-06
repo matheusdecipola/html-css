@@ -6,16 +6,23 @@
     <title>Document</title>
     <style>
         body{
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url("imagens/1a.png");
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /* shorthand - background - color - image - position - repeat - [size] - attachment
+            */
+
+            background: black url("imagens/1a.png") center center no-repeat fixed;
+            background-size: cover;
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -26,6 +33,10 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad nisi possimus obcaecati optio? Rem quasi est quia? Voluptatibus, eius veritatis? Similique hic recusandae ut, ratione assumenda eos nam voluptates ea?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad nisi possimus obcaecati optio? Rem quasi est quia? Voluptatibus, eius veritatis? Similique hic recusandae ut, ratione assumenda eos nam voluptates ea?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad nisi possimus obcaecati optio? Rem quasi est quia? Voluptatibus, eius veritatis? Similique hic recusandae ut, ratione assumenda eos nam voluptates ea?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad nisi possimus obcaecati optio? Rem quasi est quia? Voluptatibus, eius veritatis? Similique hic recusandae ut, ratione assumenda eos nam voluptates ea?</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad nisi possimus obcaecati optio? Rem quasi est quia? Voluptatibus, eius veritatis? Similique hic recusandae ut, ratione assumenda eos nam voluptates ea?</p>
     </main>
 </body>
